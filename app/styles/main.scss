@@ -1,0 +1,25 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+@import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  height: 100%;
+  margin: 0px;
+
+
+  .canvas-container {
+    margin: 0px;
+  }
+
+  #frenchtech-animation {
+    background-color: red;
+  }
+}

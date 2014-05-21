@@ -1,0 +1,14 @@
+{
+  "name": "frenchtechnimation",
+  "version": "0.0.0",
+  "dependencies": {
+    "json3": "~3.2.6",
+    "es5-shim": "~2.1.0",
+    "jquery": "~1.11.0",
+    "bootstrap-sass-official": "~3.1.1",
+    "fabric": "~1.4.5",
+    "async": "~0.9.0"
+  },
+  "devDependencies": {},
+  "testPath": "test/client/spec"
+}
