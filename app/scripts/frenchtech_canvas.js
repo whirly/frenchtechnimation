@@ -124,8 +124,8 @@ function frenchtechAnimation() {
                 self.createAndPlaceObjects( self.myCanvas, self.objects, self.startCoordinates );
 
                 // Animate them
-                self.animateCity( self.strasbourg, 300 );
-                self.animateCity( self.mulhouse, -300 );
+                self.animateCity( self.strasbourg, 400 * self.scale.x );
+                self.animateCity( self.mulhouse, -400 * self.scale.y );
 
                 // Make the title appear
                 setTimeout( function() {
