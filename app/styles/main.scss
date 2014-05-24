@@ -20,6 +20,34 @@ body {
   }
 
   #frenchtech-animation {
-    background-color: red;
   }
+
+  section.animation {
+    min-height: 693px;
+    margin-top: 90px; }
+
+    #animation-text {
+      position: absolute;
+      left: 0;
+      top: 90px;
+      width: 100%;
+      display: none;
+
+    }
+
+    h1 {
+      background-color: #f63d43;
+      color: white;
+      display: inline-block;
+      padding: 8px 10px 6px 10px;
+    }
+
+    h2 {
+      color: #0f68a4;
+      text-shadow: 1px 1px 0 white;
+    }
+
+    h2 strong {
+      font-style: italic;
+    }
 }

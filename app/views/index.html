@@ -25,12 +25,22 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="canvas-container">
-        <canvas id="frenchtech-animation" width="100%" height="100%">
+    <section class="animation text-center">
+        <div class="canvas-container">
+            <canvas id="frenchtech-animation" width="100%" height="100%">
 
-        </canvas>
+            </canvas>
 
-    </div>
+        </div>
+        <div id="animation-text">
+            <h1>Événement <strong>le 12 juin</strong></h1>
+            <h2 class="h1">
+                Lancement officiel de la candidature
+                <br/>
+                <strong>Pôle Métropolitain Strasbourg-Mulhouse</strong>
+            </h2>
+        </div>
+    </section>
 
 
     <!--[if lt IE 9]>
@@ -41,8 +51,10 @@
     <!-- build:js(app) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/fabric/dist/fabric.min.js"></script>
+    <script src="bower_components/fabric/dist/fabric.js"></script>
     <!-- endbower -->
+    <script src="bower_components/async/lib/async.js"></script>
+
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
